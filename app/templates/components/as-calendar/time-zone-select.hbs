@@ -12,7 +12,7 @@
 
           {{input type="text"
             value=inputQuery
-            key-up="inputQueryChanged"
+            key-up=(action "inputQueryChanged")
             placeholder="Search timezones"}}
         </div>
       {{/if}}
